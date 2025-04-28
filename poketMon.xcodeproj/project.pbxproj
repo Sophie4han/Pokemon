@@ -34,9 +34,22 @@
 		56DCFD8D2DBA18FA009BAC42 /* poketMonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = poketMonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		562713272DBF994400BC32CC /* Exceptions for "poketMon" folder in "poketMon" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 56DCFD6C2DBA18F9009BAC42 /* poketMon */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		56DCFD6F2DBA18F9009BAC42 /* poketMon */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				562713272DBF994400BC32CC /* Exceptions for "poketMon" folder in "poketMon" target */,
+			);
 			path = poketMon;
 			sourceTree = "<group>";
 		};
